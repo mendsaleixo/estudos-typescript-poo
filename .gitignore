@@ -1,0 +1,8 @@
+# Arquivo: .gitignore
+
+# Dependências do Node
+node_modules
+
+# Arquivos compilados do TypeScript
+*.js
+*.js.map
