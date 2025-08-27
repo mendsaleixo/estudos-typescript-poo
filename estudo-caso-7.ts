@@ -10,7 +10,7 @@ interface IPostavel {
 
 // --- 2. Criar a Classe Abstrata ---
 // Planta INCOMPLETA para todo tipo de conteúdo.
-// Ninguém pode criar um 'new Conteudo()'.
+// Ninguém pode criar um 'new Conteudo()', tem que criar um objeto de uma filha dele.
 abstract class Conteudo {
   public titulo: string;
 
